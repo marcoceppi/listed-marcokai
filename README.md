@@ -23,24 +23,24 @@ Copy and paste the following code snippet:
 metatype: css
 ---
 
-@import url(https://marcoceppi.github.io/marcokai/marcokai.min.css);
+@import url(https://marcoceppi.github.io/listed-marcokai/dist/marcokai.min.css);
 ```
 
 Now publish the post as a Private Post and refresh your listed.to author page!
 
 ## Copy / Pasta
 
-If you don't want automatic updates, and wish to instead use this as a base just copy and paste everything in [`marcokai.css`] while following [these instructions](https://docs.standardnotes.org/listed/styles#to-stylize-your-blog-with-custom-css)
+If you don't want automatic updates, and wish to instead use this as a base just copy and paste everything in [`marcokai.css`](/src/marcokai.css) while following [these instructions](https://docs.standardnotes.org/listed/styles#to-stylize-your-blog-with-custom-css)
 
 # Contributing
 
 If you've made it this far you might be interested in helping maintain this little listed theme!
 There are several ways to help out the project:
 
-* [Open a Github Issue with a bug, feature, or question](https://github.com/marcoceppi/marcokai/issues)!
+* [Open a Github Issue with a bug, feature, or question](https://github.com/marcoceppi/listed-marcokai/issues)!
   Often times just informing of bugs, or asking to support newer extensions, or even asking for help can make all the difference.
   If you're asking, or seeing an issue, there's a good chance someone else is - being the first to ask will save many in the future.
-* [Opening a pull request]()!
+* [Opening a pull request](https://github.com/marcoceppi/listed-marcokai/network/members)!
   Contributing back code to keep this project alive is much appreciated.
   Personally, this is my listed theme so helping keep it working is :100:, but it will also help out all those who are using it as a base.
   While not required, it's preferable to have pull requests organized to a single commit and linked to an existing issue.
