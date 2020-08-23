@@ -36,4 +36,4 @@ jobs:
         git add dist
         git commit -m "${{ steps.version.outputs.version }} release"
         git tag -f ${{ steps.version.outputs.version }}
-        git push -f --tags
+        git push -f origin stable --tags
