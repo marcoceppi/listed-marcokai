@@ -29,10 +29,10 @@ jobs:
 
     - name: Build release
       run: |
-        uglifycss --ugly-comments --output dist/marcokai.min.css
+        uglifycss --ugly-comments --output dist/marcokai.min.css src/marcokai.css
         cp dist/marcokai.min.css dist/marcokai-${{ steps.version.outputs.version }}.min.css
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add dist
-        git commit -m "${{ steps.version.outputs.version }} release"
+        git commit -m ":bookmark: ${{ steps.version.outputs.version }} release"
         git push origin HEAD:stable
