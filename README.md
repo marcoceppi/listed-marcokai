@@ -32,6 +32,38 @@ Now publish the post as a Private Post and refresh your listed.to author page!
 
 If you don't want automatic updates, and wish to instead use this as a base just copy and paste everything in [`marcokai.css`](/src/marcokai.css) while following [these instructions](https://docs.standardnotes.org/listed/styles#to-stylize-your-blog-with-custom-css)
 
+# Remixing
+
+Marcokai is meant to be a base theme.
+What's great about listed's site format is you can override any of the CSS by adding blocks of CSS code after the `@import` line.
+For example, make all the links pink:
+
+```css
+---
+metatype: css
+---
+
+@import url(https://marcoceppi.github.io/listed-marcokai/dist/marcokai.min.css);
+
+:root {
+  --link-color: #f92672;
+}
+```
+
+Or, perform some more nuianced changes, like instead of the typical `⋮` between Listed and your blog name (or the `>` that Marcokai inserts) you can make it whatever you'd like:
+
+```css
+---
+metatype: css
+---
+
+@import url(https://marcoceppi.github.io/listed-marcokai/dist/marcokai.min.css);
+
+#page-header .left .path-item:before {
+  content: "≡";
+}
+```
+
 # Contributing
 
 If you've made it this far you might be interested in helping maintain this little listed theme!
