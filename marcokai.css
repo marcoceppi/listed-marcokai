@@ -1,0 +1,60 @@
+:root {
+  --dimmed-text-color: #f8f8f2;
+  --dimmed-border-color: #44475a;
+  --background-color: #282a36;
+  --body-text-color: #fff;
+  --post-title-color: #f8f8f2;
+  --post-date-color: #f8f8f2;
+  --post-text-color: #f8f8f2;
+  --page-menu-link-color: #fff;
+  --header-author-name: var(--body-text-color);
+  --header-listed-name: var(--body-text-color);
+  --more-from-border-color: var(--dimmed-border-color);
+  --bio-color: var(--body-text-color);
+  --wordcount-color: var(--body-text-color);
+  --website-color: var(--body-text-color);
+  --twitter-color: var(--body-text-color);
+  --link-color: #f1fa8c;
+  --header-border-color: var(--dimmed-border-color);
+}
+
+#page-header .left .path-item:before {
+  content: ">";
+}
+
+.highlight {
+  background-color: transparent;
+}
+
+.post-content pre {
+  background-color: #1A2330;
+}
+
+.highlight .o {
+  color: var(--body-text-color);
+}
+
+.highlight .k,
+.highlight .kv,
+.highlight .ow {
+  color: #f92672;
+}
+
+.highlight .nf,
+.highlight .s2 {
+  color: #a6e22e;
+}
+
+.highlight .nb {
+  color: #56B6C2;
+}
+
+#footer .left,
+#footer .right {
+  float: none;
+  display: inline-block;
+}
+
+#footer .left .listed {
+  padding-right: 0;
+}
