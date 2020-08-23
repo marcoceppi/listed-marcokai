@@ -35,5 +35,4 @@ jobs:
         git config user.email github-actions@github.com
         git add dist
         git commit -m "${{ steps.version.outputs.version }} release"
-        git tag -f ${{ steps.version.outputs.version }}
-        git push -f origin stable --tags
+        git push
