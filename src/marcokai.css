@@ -56,7 +56,8 @@
 
 .highlight .k,
 .highlight .kv,
-.highlight .ow {
+.highlight .ow,
+.highlight .nt {
   color: #f92672;
 }
 
