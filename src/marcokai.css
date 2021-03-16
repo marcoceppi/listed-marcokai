@@ -50,6 +50,16 @@
   background-color: var(--contrast-background);
 }
 
+.post-content code.prettyprint {
+  background-color: var(--contrast-background);
+  border-color: var(--contrast-background);
+  color: #a6e22e;
+}
+
+.post-content ul {
+  padding-inline-start: 20px;
+}
+
 .highlight .o {
   color: var(--body-text-color);
 }
